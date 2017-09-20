@@ -69,17 +69,17 @@
 
 
 
-<meta name="description" content="12345678910111213141516171819202122232425public class Main &amp;#123;    /**     * 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。     * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。     * 时间限制：1秒 空间限制：32768K">
+<meta name="description" content="123456789101112131415161718192021222324252627282930/*** 输入一个链表，从尾到头打印链表每个节点的值。*    public class ListNode &amp;#123;*        int val;*        ListNode next = null;**        ListNode(int val) &amp;#123;*">
 <meta property="og:type" content="article">
-<meta property="og:title" content="剑指offer_001">
-<meta property="og:url" content="http://yoursite.com/2017/09/20/剑指offer_001/index.html">
+<meta property="og:title" content="剑指offer_003">
+<meta property="og:url" content="http://yoursite.com/2017/09/20/剑指offer-003/index.html">
 <meta property="og:site_name" content="青春之旅">
-<meta property="og:description" content="12345678910111213141516171819202122232425public class Main &amp;#123;    /**     * 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。     * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。     * 时间限制：1秒 空间限制：32768K">
+<meta property="og:description" content="123456789101112131415161718192021222324252627282930/*** 输入一个链表，从尾到头打印链表每个节点的值。*    public class ListNode &amp;#123;*        int val;*        ListNode next = null;**        ListNode(int val) &amp;#123;*">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-20T08:53:35.000Z">
+<meta property="og:updated_time" content="2017-09-20T09:11:11.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="剑指offer_001">
-<meta name="twitter:description" content="12345678910111213141516171819202122232425public class Main &amp;#123;    /**     * 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。     * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。     * 时间限制：1秒 空间限制：32768K">
+<meta name="twitter:title" content="剑指offer_003">
+<meta name="twitter:description" content="123456789101112131415161718192021222324252627282930/*** 输入一个链表，从尾到头打印链表每个节点的值。*    public class ListNode &amp;#123;*        int val;*        ListNode next = null;**        ListNode(int val) &amp;#123;*">
 
 
 
@@ -109,13 +109,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/09/20/剑指offer_001/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/09/20/剑指offer-003/"/>
 
 
 
 
 
-  <title>剑指offer_001 | 青春之旅</title>
+  <title>剑指offer_003 | 青春之旅</title>
   
 
 
@@ -252,7 +252,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/20/剑指offer_001/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/20/剑指offer-003/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhklt521">
@@ -269,7 +269,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">剑指offer_001</h1>
+          <h1 class="post-title" itemprop="name headline">剑指offer_003</h1>
         
 
         <div class="post-meta">
@@ -281,7 +281,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-20T16:50:51+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-20T17:10:24+08:00">
                 2017-09-20
               </time>
             
@@ -319,7 +319,7 @@
       
 
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">public class Main &#123;</div><div class="line">    /**</div><div class="line">     * 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。</div><div class="line">     * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。</div><div class="line">     * 时间限制：1秒 空间限制：32768K</div><div class="line">     * @param target</div><div class="line">     * @param array</div><div class="line">     * @return</div><div class="line">     */</div><div class="line">    public static boolean Find(int target, int [][] array) &#123;</div><div class="line">        for(int i = 0;i &lt; array.length;i++)&#123;</div><div class="line">            for(int j = 0;j &lt; array[i].length;j++)&#123;</div><div class="line">                if(target == array[i][j])</div><div class="line">                    return true;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        return false;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public static void main(String args[])&#123;</div><div class="line">        int [][] array = new int[][]&#123;&#123;1,2,8,9&#125;,&#123;2,4,9,12&#125;,&#123;4,7,10,13&#125;,&#123;6,8,11,15&#125;&#125;;</div><div class="line">        int target = 7;</div><div class="line">        System.out.println(Find(target,array));</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line">* 输入一个链表，从尾到头打印链表每个节点的值。</div><div class="line">*    public class ListNode &#123;</div><div class="line">*        int val;</div><div class="line">*        ListNode next = null;</div><div class="line">*</div><div class="line">*        ListNode(int val) &#123;</div><div class="line">*            this.val = val;</div><div class="line">*        &#125;</div><div class="line">*    &#125;</div><div class="line">*</div><div class="line">*/</div><div class="line">import java.util.ArrayList;</div><div class="line">import java.util.Collections;</div><div class="line">public class Solution &#123;</div><div class="line">    public ArrayList&lt;Integer&gt; printListFromTailToHead(ListNode listNode) &#123;</div><div class="line">        ArrayList&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();</div><div class="line">        if(listNode != null) &#123;</div><div class="line">        	printList(listNode,list);</div><div class="line">        &#125;</div><div class="line">        Collections.reverse(list);</div><div class="line">        return list;</div><div class="line">    &#125;</div><div class="line">    public void printList(ListNode listNode,ArrayList&lt;Integer&gt; list)&#123;</div><div class="line">        if(listNode != null) &#123;</div><div class="line">            list.add(listNode.val);</div><div class="line">        	printList(listNode.next,list);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -344,8 +344,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/09/20/hello/" rel="next" title="hello">
-                <i class="fa fa-chevron-left"></i> hello
+              <a href="/2017/09/20/剑指offer-002/" rel="next" title="剑指offer_002">
+                <i class="fa fa-chevron-left"></i> 剑指offer_002
               </a>
             
           </div>
@@ -353,10 +353,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/09/20/剑指offer-002/" rel="prev" title="剑指offer_002">
-                剑指offer_002 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
